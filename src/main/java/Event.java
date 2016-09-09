@@ -4,9 +4,9 @@ class Event {
   private Integer mBeverage;
   private Integer mEntertainment;
   private Integer total = 0;
-  private String mealChoice;
-  private String beverageChoice;
-  private String entertainmentChoice;
+  private String mealChoice = "";
+  private String beverageChoice = "";
+  private String entertainmentChoice = "";
 
 
   public Event(Integer guests, Integer meal, Integer beverage, Integer entertainment) {
