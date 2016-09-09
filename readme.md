@@ -8,9 +8,9 @@
 
 _This application allows the user to choose the number of guests, food option, beverage option, and entertainment option for an event. The program provides the user with a cost estimation after all selections have been made._
 
-* _User selects number of guests and the application calculates the cost based on the number of guests. There is a flat cost per guest._
+* _User selects number of guests and the application calculates the cost based on the number of guests._
   * _Example Input: 10_
-  * _Example Output: 100_
+  * _Example Output: 10_
 
 * _User selects choice of meal and the program calculates the cost based on the number of guests and the food option. In this example, the steak costs $15 per guest and there are 10 guests._
   * _Example Input: Steak_
