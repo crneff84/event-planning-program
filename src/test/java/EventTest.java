@@ -10,12 +10,6 @@ public class EventTest {
   }
 
   @Test
-  public void newEvent_calculateCost_1200() {
-    Event testEvent = new Event(10, 1, 1, 1);
-    assertEquals(Integer.valueOf(1200), testEvent.calculateCost());
-  }
-
-  @Test
   public void newEvent_getTotal_0() {
     Event testEvent = new Event(10, 1, 1, 1);
     assertEquals(Integer.valueOf(0), testEvent.getTotal());
@@ -46,6 +40,12 @@ public class EventTest {
     Event testEvent = new Event(10, 1, 1, 1);
     String expectedOutput = "";
     assertEquals(expectedOutput, testEvent.getEntertainmentChoice());
+  }
+
+  @Test
+  public void newEvent_calculateCost_1200() {
+    Event testEvent = new Event(10, 1, 1, 1);
+    assertEquals(Integer.valueOf(1200), testEvent.calculateCost());
   }
 
   @Test
